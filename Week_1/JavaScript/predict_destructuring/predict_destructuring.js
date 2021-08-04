@@ -60,4 +60,4 @@ console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
 
-//output: val, [1,5,1,8,3], 1, 5
+//output: value, [1,5,1,8,3,3], 1, 5
