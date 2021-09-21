@@ -10,7 +10,7 @@ app.use(cors({
 
 
 require("./config/mongoose.config");
-// require("./routes/product.routes")(app);
+require("./routes/product.routes")(app);
 
 
 app.listen(8000, () => {
