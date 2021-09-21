@@ -9,7 +9,8 @@ app.use(cors({
 }));
 
 
-
+require("./config/mongoose.config");
+require("./routes/author.routes")(app);
 
 
 
