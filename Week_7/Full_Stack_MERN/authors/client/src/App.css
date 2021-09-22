@@ -1,0 +1,59 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 2px 2px 3px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+h1{
+  font-size: 45px;
+  margin: 0px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+form{
+  text-align: center;
+  margin: 10px;
+}
+
+label{
+  display: block;
+  width: 200px;
+  margin: auto;
+  font-size: 22px;
+}
+
+input{
+  width: 300px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px;
+}
+
+p{
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+span{
+  text-align: center;
+  display: grid;
+  padding: 0px 10px 10px 10px;
+}
