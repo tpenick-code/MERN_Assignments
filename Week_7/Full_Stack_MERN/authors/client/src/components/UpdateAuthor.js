@@ -2,6 +2,7 @@ import React, {useState,useEffect} from "react";
 import {navigate} from "@reach/router";
 import axios from "axios";
 import Form from "./Form";
+import Header from "./Header";
 
 
 
@@ -53,8 +54,8 @@ const updateHandler = (e) => {
 
     return (
         <div>
-            <h1>Edit Author</h1>
-                <Form author={updatedAuthor} setAuthor={setUpdatedAuthor} submitHandler={updateHandler}errors = {errors}/>
+            <Header link="/" linkText = "Home" subText = "Edit this author"/>
+            <Form author={updatedAuthor} setAuthor={setUpdatedAuthor} submitHandler={updateHandler}errors = {errors}/>
         </div>
     )
 };

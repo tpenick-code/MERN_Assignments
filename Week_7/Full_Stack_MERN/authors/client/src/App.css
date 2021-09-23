@@ -57,3 +57,13 @@ span{
   display: grid;
   padding: 0px 10px 10px 10px;
 }
+
+table {
+align-content: center;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}

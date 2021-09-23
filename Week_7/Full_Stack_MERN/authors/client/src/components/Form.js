@@ -22,8 +22,8 @@ const Form = (props) => {
                 <label>Name</label>
                 <input onChange={inputHandler} name = "authorName" value={author.authorName} type = "text"/>
                 {   
-                    errors.errors ?
-                    <span>{errors.errors.message}</span>
+                    errors.authorName ?
+                    <span>{errors.authorName.message}</span>
                     : null
                 }
                 <br/>
